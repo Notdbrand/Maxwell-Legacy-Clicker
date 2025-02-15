@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581049322D5C259E0060D583 /* Maxwell My Beloved.png in Resources */ = {isa = PBXBuildFile; fileRef = 581049312D5C259E0060D583 /* Maxwell My Beloved.png */; };
+		581049332D5C259E0060D583 /* Maxwell My Beloved.png in Resources */ = {isa = PBXBuildFile; fileRef = 581049312D5C259E0060D583 /* Maxwell My Beloved.png */; };
+		58520E832D5C707E0085B54B /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E822D5C707E0085B54B /* 57.png */; };
+		58520E852D5C70850085B54B /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E842D5C70850085B54B /* 114.png */; };
+		58520E872D5C708E0085B54B /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E862D5C708E0085B54B /* 72.png */; };
+		58520E892D5C70920085B54B /* 144.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E882D5C70920085B54B /* 144.png */; };
+		58520E8B2D5C74430085B54B /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E8A2D5C74430085B54B /* LOGO.png */; };
+		58520E8C2D5C74430085B54B /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 58520E8A2D5C74430085B54B /* LOGO.png */; };
+		58DE16432D5C0C3700D76F49 /* Maxwell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58DE16412D5C0C3700D76F49 /* Maxwell.mp3 */; };
+		58DE16442D5C0C3700D76F49 /* Maxwell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58DE16412D5C0C3700D76F49 /* Maxwell.mp3 */; };
+		58DE16492D5C0D7000D76F49 /* MAXSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE16482D5C0D7000D76F49 /* MAXSplashViewController.m */; };
+		58DE164A2D5C0D7000D76F49 /* MAXSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE16482D5C0D7000D76F49 /* MAXSplashViewController.m */; };
+		58DE164D2D5C0D8A00D76F49 /* MAXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE164C2D5C0D8A00D76F49 /* MAXMainViewController.m */; };
+		58DE164E2D5C0D8A00D76F49 /* MAXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE164C2D5C0D8A00D76F49 /* MAXMainViewController.m */; };
+		58DE16512D5C0D9F00D76F49 /* MAXInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE16502D5C0D9F00D76F49 /* MAXInfoViewController.m */; };
+		58DE16522D5C0D9F00D76F49 /* MAXInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE16502D5C0D9F00D76F49 /* MAXInfoViewController.m */; };
+		58DE16542D5C0F3A00D76F49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DE16532D5C0F3A00D76F49 /* AVFoundation.framework */; };
+		58F266132D604C6D005BAD81 /* simon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F266122D604C6D005BAD81 /* simon.png */; };
+		58F7A51D2D5B6F840095F27F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A51C2D5B6F840095F27F /* UIKit.framework */; };
+		58F7A51F2D5B6F840095F27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A51E2D5B6F840095F27F /* Foundation.framework */; };
+		58F7A5212D5B6F840095F27F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A5202D5B6F840095F27F /* CoreGraphics.framework */; };
+		58F7A5272D5B6F840095F27F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A5252D5B6F840095F27F /* InfoPlist.strings */; };
+		58F7A5292D5B6F840095F27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7A5282D5B6F840095F27F /* main.m */; };
+		58F7A52D2D5B6F840095F27F /* MAXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7A52C2D5B6F840095F27F /* MAXAppDelegate.m */; };
+		58F7A52F2D5B6F840095F27F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A52E2D5B6F840095F27F /* Default.png */; };
+		58F7A5312D5B6F840095F27F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A5302D5B6F840095F27F /* Default@2x.png */; };
+		58F7A5332D5B6F840095F27F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A5322D5B6F840095F27F /* Default-568h@2x.png */; };
+		58F7A5362D5B6F840095F27F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A5342D5B6F840095F27F /* MainStoryboard_iPhone.storyboard */; };
+		58F7A5392D5B6F840095F27F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A5372D5B6F840095F27F /* MainStoryboard_iPad.storyboard */; };
+		58F7A53C2D5B6F840095F27F /* MAXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7A53B2D5B6F840095F27F /* MAXViewController.m */; };
+		58F7A5442D5B6F840095F27F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A5432D5B6F840095F27F /* SenTestingKit.framework */; };
+		58F7A5452D5B6F840095F27F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A51C2D5B6F840095F27F /* UIKit.framework */; };
+		58F7A5462D5B6F840095F27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A51E2D5B6F840095F27F /* Foundation.framework */; };
+		58F7A54E2D5B6F840095F27F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58F7A54C2D5B6F840095F27F /* InfoPlist.strings */; };
+		58F7A5512D5B6F840095F27F /* MaxwellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7A5502D5B6F840095F27F /* MaxwellTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F7A5472D5B6F840095F27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F7A5112D5B6F840095F27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F7A5182D5B6F840095F27F;
+			remoteInfo = Maxwell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581049312D5C259E0060D583 /* Maxwell My Beloved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maxwell My Beloved.png"; sourceTree = "<group>"; };
+		58520E822D5C707E0085B54B /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = ../57.png; sourceTree = "<group>"; };
+		58520E842D5C70850085B54B /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = ../114.png; sourceTree = "<group>"; };
+		58520E862D5C708E0085B54B /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 72.png; path = ../72.png; sourceTree = "<group>"; };
+		58520E882D5C70920085B54B /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 144.png; path = ../144.png; sourceTree = "<group>"; };
+		58520E8A2D5C74430085B54B /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		58DE16412D5C0C3700D76F49 /* Maxwell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Maxwell.mp3; sourceTree = "<group>"; };
+		58DE16472D5C0D7000D76F49 /* MAXSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXSplashViewController.h; sourceTree = "<group>"; };
+		58DE16482D5C0D7000D76F49 /* MAXSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXSplashViewController.m; sourceTree = "<group>"; };
+		58DE164B2D5C0D8A00D76F49 /* MAXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXMainViewController.h; sourceTree = "<group>"; };
+		58DE164C2D5C0D8A00D76F49 /* MAXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXMainViewController.m; sourceTree = "<group>"; };
+		58DE164F2D5C0D9F00D76F49 /* MAXInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXInfoViewController.h; sourceTree = "<group>"; };
+		58DE16502D5C0D9F00D76F49 /* MAXInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXInfoViewController.m; sourceTree = "<group>"; };
+		58DE16532D5C0F3A00D76F49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		58F266122D604C6D005BAD81 /* simon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simon.png; sourceTree = "<group>"; };
+		58F7A5192D5B6F840095F27F /* Maxwell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maxwell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F7A51C2D5B6F840095F27F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58F7A51E2D5B6F840095F27F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58F7A5202D5B6F840095F27F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58F7A5242D5B6F840095F27F /* Maxwell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maxwell-Info.plist"; sourceTree = "<group>"; };
+		58F7A5262D5B6F840095F27F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58F7A5282D5B6F840095F27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F7A52A2D5B6F840095F27F /* Maxwell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maxwell-Prefix.pch"; sourceTree = "<group>"; };
+		58F7A52B2D5B6F840095F27F /* MAXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAXAppDelegate.h; sourceTree = "<group>"; };
+		58F7A52C2D5B6F840095F27F /* MAXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXAppDelegate.m; sourceTree = "<group>"; };
+		58F7A52E2D5B6F840095F27F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		58F7A5302D5B6F840095F27F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		58F7A5322D5B6F840095F27F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58F7A5352D5B6F840095F27F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		58F7A5382D5B6F840095F27F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		58F7A53A2D5B6F840095F27F /* MAXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAXViewController.h; sourceTree = "<group>"; };
+		58F7A53B2D5B6F840095F27F /* MAXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXViewController.m; sourceTree = "<group>"; };
+		58F7A5422D5B6F840095F27F /* MaxwellTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxwellTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F7A5432D5B6F840095F27F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		58F7A54B2D5B6F840095F27F /* MaxwellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaxwellTests-Info.plist"; sourceTree = "<group>"; };
+		58F7A54D2D5B6F840095F27F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58F7A54F2D5B6F840095F27F /* MaxwellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxwellTests.h; sourceTree = "<group>"; };
+		58F7A5502D5B6F840095F27F /* MaxwellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxwellTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F7A5162D5B6F840095F27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DE16542D5C0F3A00D76F49 /* AVFoundation.framework in Frameworks */,
+				58F7A51D2D5B6F840095F27F /* UIKit.framework in Frameworks */,
+				58F7A51F2D5B6F840095F27F /* Foundation.framework in Frameworks */,
+				58F7A5212D5B6F840095F27F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F7A53E2D5B6F840095F27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7A5442D5B6F840095F27F /* SenTestingKit.framework in Frameworks */,
+				58F7A5452D5B6F840095F27F /* UIKit.framework in Frameworks */,
+				58F7A5462D5B6F840095F27F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F7A5102D5B6F840095F27F = {
+			isa = PBXGroup;
+			children = (
+				58F7A5222D5B6F840095F27F /* Maxwell */,
+				58F7A5492D5B6F840095F27F /* MaxwellTests */,
+				58F7A51B2D5B6F840095F27F /* Frameworks */,
+				58F7A51A2D5B6F840095F27F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F7A51A2D5B6F840095F27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F7A5192D5B6F840095F27F /* Maxwell.app */,
+				58F7A5422D5B6F840095F27F /* MaxwellTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F7A51B2D5B6F840095F27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58DE16532D5C0F3A00D76F49 /* AVFoundation.framework */,
+				58F7A51C2D5B6F840095F27F /* UIKit.framework */,
+				58F7A51E2D5B6F840095F27F /* Foundation.framework */,
+				58F7A5202D5B6F840095F27F /* CoreGraphics.framework */,
+				58F7A5432D5B6F840095F27F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F7A5222D5B6F840095F27F /* Maxwell */ = {
+			isa = PBXGroup;
+			children = (
+				58F7A52B2D5B6F840095F27F /* MAXAppDelegate.h */,
+				58F7A52C2D5B6F840095F27F /* MAXAppDelegate.m */,
+				58F7A5342D5B6F840095F27F /* MainStoryboard_iPhone.storyboard */,
+				58F7A5372D5B6F840095F27F /* MainStoryboard_iPad.storyboard */,
+				58F7A53A2D5B6F840095F27F /* MAXViewController.h */,
+				58F7A53B2D5B6F840095F27F /* MAXViewController.m */,
+				58DE16472D5C0D7000D76F49 /* MAXSplashViewController.h */,
+				58DE16482D5C0D7000D76F49 /* MAXSplashViewController.m */,
+				58DE164B2D5C0D8A00D76F49 /* MAXMainViewController.h */,
+				58DE164C2D5C0D8A00D76F49 /* MAXMainViewController.m */,
+				58DE164F2D5C0D9F00D76F49 /* MAXInfoViewController.h */,
+				58DE16502D5C0D9F00D76F49 /* MAXInfoViewController.m */,
+				58F7A5232D5B6F840095F27F /* Supporting Files */,
+			);
+			path = Maxwell;
+			sourceTree = "<group>";
+		};
+		58F7A5232D5B6F840095F27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F266122D604C6D005BAD81 /* simon.png */,
+				58520E8A2D5C74430085B54B /* LOGO.png */,
+				58520E882D5C70920085B54B /* 144.png */,
+				58520E862D5C708E0085B54B /* 72.png */,
+				58520E842D5C70850085B54B /* 114.png */,
+				58520E822D5C707E0085B54B /* 57.png */,
+				581049312D5C259E0060D583 /* Maxwell My Beloved.png */,
+				58DE16412D5C0C3700D76F49 /* Maxwell.mp3 */,
+				58F7A5242D5B6F840095F27F /* Maxwell-Info.plist */,
+				58F7A5252D5B6F840095F27F /* InfoPlist.strings */,
+				58F7A5282D5B6F840095F27F /* main.m */,
+				58F7A52A2D5B6F840095F27F /* Maxwell-Prefix.pch */,
+				58F7A52E2D5B6F840095F27F /* Default.png */,
+				58F7A5302D5B6F840095F27F /* Default@2x.png */,
+				58F7A5322D5B6F840095F27F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F7A5492D5B6F840095F27F /* MaxwellTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F7A54F2D5B6F840095F27F /* MaxwellTests.h */,
+				58F7A5502D5B6F840095F27F /* MaxwellTests.m */,
+				58F7A54A2D5B6F840095F27F /* Supporting Files */,
+			);
+			path = MaxwellTests;
+			sourceTree = "<group>";
+		};
+		58F7A54A2D5B6F840095F27F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F7A54B2D5B6F840095F27F /* MaxwellTests-Info.plist */,
+				58F7A54C2D5B6F840095F27F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F7A5182D5B6F840095F27F /* Maxwell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F7A5542D5B6F840095F27F /* Build configuration list for PBXNativeTarget "Maxwell" */;
+			buildPhases = (
+				58F7A5152D5B6F840095F27F /* Sources */,
+				58F7A5162D5B6F840095F27F /* Frameworks */,
+				58F7A5172D5B6F840095F27F /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maxwell;
+			productName = Maxwell;
+			productReference = 58F7A5192D5B6F840095F27F /* Maxwell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58F7A5412D5B6F840095F27F /* MaxwellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F7A5572D5B6F840095F27F /* Build configuration list for PBXNativeTarget "MaxwellTests" */;
+			buildPhases = (
+				58F7A53D2D5B6F840095F27F /* Sources */,
+				58F7A53E2D5B6F840095F27F /* Frameworks */,
+				58F7A53F2D5B6F840095F27F /* Resources */,
+				58F7A5402D5B6F840095F27F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F7A5482D5B6F840095F27F /* PBXTargetDependency */,
+			);
+			name = MaxwellTests;
+			productName = MaxwellTests;
+			productReference = 58F7A5422D5B6F840095F27F /* MaxwellTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F7A5112D5B6F840095F27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Notdbrand;
+			};
+			buildConfigurationList = 58F7A5142D5B6F840095F27F /* Build configuration list for PBXProject "Maxwell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58F7A5102D5B6F840095F27F;
+			productRefGroup = 58F7A51A2D5B6F840095F27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F7A5182D5B6F840095F27F /* Maxwell */,
+				58F7A5412D5B6F840095F27F /* MaxwellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F7A5172D5B6F840095F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7A5272D5B6F840095F27F /* InfoPlist.strings in Resources */,
+				58F7A52F2D5B6F840095F27F /* Default.png in Resources */,
+				58F266132D604C6D005BAD81 /* simon.png in Resources */,
+				58F7A5312D5B6F840095F27F /* Default@2x.png in Resources */,
+				58F7A5332D5B6F840095F27F /* Default-568h@2x.png in Resources */,
+				58F7A5362D5B6F840095F27F /* MainStoryboard_iPhone.storyboard in Resources */,
+				58F7A5392D5B6F840095F27F /* MainStoryboard_iPad.storyboard in Resources */,
+				58DE16432D5C0C3700D76F49 /* Maxwell.mp3 in Resources */,
+				581049322D5C259E0060D583 /* Maxwell My Beloved.png in Resources */,
+				58520E832D5C707E0085B54B /* 57.png in Resources */,
+				58520E852D5C70850085B54B /* 114.png in Resources */,
+				58520E872D5C708E0085B54B /* 72.png in Resources */,
+				58520E892D5C70920085B54B /* 144.png in Resources */,
+				58520E8B2D5C74430085B54B /* LOGO.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F7A53F2D5B6F840095F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7A54E2D5B6F840095F27F /* InfoPlist.strings in Resources */,
+				58DE16442D5C0C3700D76F49 /* Maxwell.mp3 in Resources */,
+				581049332D5C259E0060D583 /* Maxwell My Beloved.png in Resources */,
+				58520E8C2D5C74430085B54B /* LOGO.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+
+/* Begin PBXSourcesBuildPhase section */
+		58F7A5152D5B6F840095F27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7A5292D5B6F840095F27F /* main.m in Sources */,
+				58F7A52D2D5B6F840095F27F /* MAXAppDelegate.m in Sources */,
+				58F7A53C2D5B6F840095F27F /* MAXViewController.m in Sources */,
+				58DE16492D5C0D7000D76F49 /* MAXSplashViewController.m in Sources */,
+				58DE164D2D5C0D8A00D76F49 /* MAXMainViewController.m in Sources */,
+				58DE16512D5C0D9F00D76F49 /* MAXInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F7A53D2D5B6F840095F27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F7A5512D5B6F840095F27F /* MaxwellTests.m in Sources */,
+				58DE164A2D5C0D7000D76F49 /* MAXSplashViewController.m in Sources */,
+				58DE164E2D5C0D8A00D76F49 /* MAXMainViewController.m in Sources */,
+				58DE16522D5C0D9F00D76F49 /* MAXInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F7A5482D5B6F840095F27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F7A5182D5B6F840095F27F /* Maxwell */;
+			targetProxy = 58F7A5472D5B6F840095F27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58F7A5252D5B6F840095F27F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F7A5262D5B6F840095F27F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58F7A5342D5B6F840095F27F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F7A5352D5B6F840095F27F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		58F7A5372D5B6F840095F27F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F7A5382D5B6F840095F27F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		58F7A54C2D5B6F840095F27F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F7A54D2D5B6F840095F27F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F7A5522D5B6F840095F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58F7A5532D5B6F840095F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F7A5552D5B6F840095F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maxwell/Maxwell-Prefix.pch";
+				INFOPLIST_FILE = "Maxwell/Maxwell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos6.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58F7A5562D5B6F840095F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maxwell/Maxwell-Prefix.pch";
+				INFOPLIST_FILE = "Maxwell/Maxwell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos6.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58F7A5582D5B6F840095F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maxwell.app/Maxwell";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maxwell/Maxwell-Prefix.pch";
+				INFOPLIST_FILE = "MaxwellTests/MaxwellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		58F7A5592D5B6F840095F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maxwell.app/Maxwell";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maxwell/Maxwell-Prefix.pch";
+				INFOPLIST_FILE = "MaxwellTests/MaxwellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F7A5142D5B6F840095F27F /* Build configuration list for PBXProject "Maxwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F7A5522D5B6F840095F27F /* Debug */,
+				58F7A5532D5B6F840095F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F7A5542D5B6F840095F27F /* Build configuration list for PBXNativeTarget "Maxwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F7A5552D5B6F840095F27F /* Debug */,
+				58F7A5562D5B6F840095F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F7A5572D5B6F840095F27F /* Build configuration list for PBXNativeTarget "MaxwellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F7A5582D5B6F840095F27F /* Debug */,
+				58F7A5592D5B6F840095F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F7A5112D5B6F840095F27F /* Project object */;
+}
